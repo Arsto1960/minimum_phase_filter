@@ -88,7 +88,7 @@ with st.sidebar:
     module = st.radio(
         "",
         # ["MODULE 1: Phase Analyzer", "MODULE 2: Zero Reflector", "MODULE 3: The Equalizer"],
-        ["MODULE 1: Phase Analyzer", "MODULE 3: The Equalizer"],
+        ["MODULE 1: Phase Analyzer", "MODULE 2: The Equalizer"],
         index=0
     )
     st.divider()
@@ -246,8 +246,8 @@ elif module == "MODULE 2: Zero Reflector":
 # ==============================================================================
 # MODULE 3: THE EQUALIZER (Application)
 # ==============================================================================
-elif module == "MODULE 3: The Equalizer":
-    st.header("Module 3: Channel Equalization")
+elif module == "MODULE 2: The Equalizer":
+    st.header("Module 2: Channel Equalization")
     st.markdown("""
     **Scenario:** A communication channel (e.g., a room or cable) distorts the signal.
     **Objective:** We need to invert the channel ($H_{eq} = 1/H_{channel}$) to recover the signal.
