@@ -87,7 +87,8 @@ with st.sidebar:
     st.markdown("Select Module:")
     module = st.radio(
         "",
-        ["MODULE 1: Phase Analyzer", "MODULE 2: Zero Reflector", "MODULE 3: The Equalizer"],
+        # ["MODULE 1: Phase Analyzer", "MODULE 2: Zero Reflector", "MODULE 3: The Equalizer"],
+        ["MODULE 1: Phase Analyzer", "MODULE 3: The Equalizer"],
         index=0
     )
     st.divider()
