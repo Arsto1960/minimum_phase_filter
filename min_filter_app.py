@@ -257,7 +257,7 @@ elif module == "MODULE 2: The Equalizer":
     col_eq1, col_eq2 = st.columns([1, 2])
     
     with col_eq1:
-        st.subheader("1. Distortion Source")
+        st.subheader("Distortion Source")
         distortion_type = st.radio("Channel Type", ["Minimum Phase (Easy)", "Non-Minimum Phase (Hard)"])
         
         # Create Channel Filter
